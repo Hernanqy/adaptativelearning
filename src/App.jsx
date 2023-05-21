@@ -1,13 +1,14 @@
 
 import './App.css'
-import Navb from './componentes/Navb'
+
+import Home from './pages/Home'
 
 function App() {
  
 
   return (
     <>
-     <Navb/>
+     <Home/>
      
     </>
   )
