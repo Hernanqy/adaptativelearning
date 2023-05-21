@@ -9,7 +9,7 @@ background: linear-gradient(to right, #000C40, #F0F2F0); /* W3C, IE 10+/ Edge, F
 
 .boximg {
     display: flex;
-    justify-content:felex-start;
+    justify-content:flex-start;
     align-items: center;
 }
 
@@ -27,14 +27,30 @@ P {
     flex-direction: column;
     align-items: center;
 }
-@media (max-width: 412px) {
-    .boximg img { 
-        width: 20em;
-        height: 20em;
+@media (max-width: 712px) {
+    .boximg img {
+        margin: 5em; 
+        width: 10em;
+        height: 15em;
+     }
+     .parrafo p {
+        font-size: 
+        1em;
+       
+     }
+     .parrafo {
+        margin:0px;
      }
      .boximg {
         display: flex;
-        justify-content:center;
-        
-     }
+       flex-direction: column;
+    }
+     
+}
+@media (min-width:712px) and (max-width:2500px) {
+    .boximg img {
+        width: 20em;
+        height: 40.5em;
+        margin-left:5em;
+    }
 }
