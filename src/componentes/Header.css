@@ -9,11 +9,32 @@ background: linear-gradient(to right, #000C40, #F0F2F0); /* W3C, IE 10+/ Edge, F
 
 .boximg {
     display: flex;
-    justify-content:flex-start;
+    justify-content:felex-start;
     align-items: center;
 }
 
 .boximg img {
-    width: 45em;
+    width: 30em;
     height: 40.5em;
+}
+P {
+    font-size:3em;
+
+}
+.parrafo {
+    margin:10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (max-width: 412px) {
+    .boximg img { 
+        width: 20em;
+        height: 20em;
+     }
+     .boximg {
+        display: flex;
+        justify-content:center;
+        
+     }
 }
