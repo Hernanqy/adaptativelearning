@@ -10,6 +10,8 @@
     display: flex;
     justify-content:flex-start;
     align-items: center;
+    margin-top:5em;
+
 }
 
 .boximg img {
@@ -21,7 +23,7 @@
 
 .parrafo {
     
-    margin-left:20em;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,6 +44,7 @@
         margin:0px;
      }
      .boximg {
+        
         display: flex;
        flex-direction: column;
     }
@@ -71,7 +74,11 @@
         letter-spacing: 1px;
         line-height:2
     }
-    
+    .parrafo {
+        display:flex;
+        justify-content:center;
+    }
+  
 }
 @media (max-width:1500px){
 
@@ -80,20 +87,13 @@
      }
 }
 
-
-
-
-
-
-
-
-
               
 .grow{
     transition: .5s, color .10s;
         -webkit-transition: .5s, color .10s;
         -moz-transition: .5s, color .10s;
         margin-top:3em;
+        
 }
 .grow:hover{
     transform: scale3d(1.5, 1.5, 0.3);
@@ -101,18 +101,16 @@
         -moz-transform: scale3d(1.5, 1.5, 0.3);
 }
 
-
+.boxImg1 {
+    margin-right:14em;
+    margin-left:4em;
+}
 
 
 
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
 
-* {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-}
 
 .cuerpo {
 	min-height: 100vh;
