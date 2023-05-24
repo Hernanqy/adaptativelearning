@@ -6,7 +6,7 @@ const Navb = () => {
             
 <nav className="bg-transparent navprincipal dark:bg-gray-900">
   <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-  <a href="https://flowbite.com/" className="flex items-center">
+  <a href="/" className="flex items-center">
       <img src={videoLogo} className="h-10 mr-3" alt="Flowbite Logo" />
       <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">SIMON</span>
   </a>

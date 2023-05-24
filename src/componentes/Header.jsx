@@ -9,25 +9,29 @@ const Header = () => {
         <div>
             <div className="cuerpo">
 
-           <div className="header1 " >
+                <div className="header1 " >
 
-            <div className="boximg">
+                    <div className="boximg">
 
-               <div className="boxImg1" ><img className="img1" src={Img1} alt="" /></div> 
-               <div className="parrafo"> <div className="container">
-               <div className="title grow">
- <h1>Comienza tu Aventura</h1>
-</div>
-</div><button className="bg-blue-500 grow hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-  Button
-</button>
-            </div>
+                        <div className="boxImg1" ><img className="img1" src={Img1} alt="" /></div>
+                        <div className="parrafo">
 
-             <div className="pantallaGrande"><img className="img2" src={Img2} alt="" /></div>
-               </div>
-              
-            </div> 
-       </div> </div>
+                            <div className="contenedor">
+
+                                <div className="title ">
+                                    <span>Comienza tu<br/>Aventura</span>
+                                </div>
+                               
+                            </div><a href="./Modulo1"><button className="bg-yellow-500 grow hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+                                Start
+                            </button></a>
+                        </div>
+
+                        <div className="pantallaGrande"><img className="img2" src={Img2} alt="" /></div>
+                    </div>
+
+                </div>
+            </div> </div>
     );
 };
 
