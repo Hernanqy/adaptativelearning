@@ -4,6 +4,7 @@ import './App.css'
 
 import Home from './pages/Home'
 import Modulo1 from './pages/Modulo1'
+import Modulo2 from './pages/Modulo2'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
 
           <Route path="/" element={<Home />} />
           <Route path="/Modulo1" element={<Modulo1/>} />
+          <Route path="/Modulo2" element={<Modulo2/>} />
          
 
         </Routes>
