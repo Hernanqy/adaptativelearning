@@ -1,6 +1,6 @@
 import Navb from "../componentes/Navb"
 import Pensamiento1 from "../componentes/Pensamiento1"
-import ElSendero from "./ElSendero"
+
 
 
 function Modulo3() {
@@ -8,7 +8,7 @@ function Modulo3() {
     <div>
       <Navb/>
       <Pensamiento1/>
-      <ElSendero/>
+      
     </div>
   )
 }
