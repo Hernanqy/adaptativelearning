@@ -2,3 +2,9 @@
 display:flex;
 justify-content:center;
 margin-top:5em}
+
+@media (max-width: 712px) {
+.contenedorSendero div iframe{
+width:25em;
+}
+}

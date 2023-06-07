@@ -4,7 +4,7 @@ import "./Hardware.css"
 const Hardware = () => {
     return (
         <div>
-            <div className="container">
+            <div className="contenedor1">
   <svg viewBox="0 0 960 300">
     <symbol id="s-text">
       <text textAnchor="middle" x="50%" y="80%">DESAFIO 1</text>

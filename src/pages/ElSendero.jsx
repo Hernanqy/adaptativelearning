@@ -1,11 +1,14 @@
 import ElSendero from "../componentes/ElSendero";
-import Navb from "../componentes/Navb";
+import Nav1 from "../componentes/Nav1";
+
+
+
 
 
 const Elsendero = () => {
     return (
         <div>
-            <Navb/>
+            <Nav1/>
             <ElSendero/>
         </div>
     );
