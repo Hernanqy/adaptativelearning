@@ -1,6 +1,6 @@
 
-import { Navbar, Nav, Button, Dropdown, Form, Collapse } from 'bootstrap-4-react';
-
+import { Navbar, Nav, Dropdown, Collapse } from 'bootstrap-4-react';
+import videoLogo from "./../../public/imagenes/Logotipo animado 500x500 px.gif"
 
 
 
@@ -9,34 +9,49 @@ const Nav1 = () => {
         <div>
               <Navbar expand="lg" light bg="light">
         <Navbar.Brand href="#">
-          Navbar
+        <a href="/" className="flex items-center">
+      <img src={videoLogo} className="h-10 mr-3" alt="Flowbite Logo" />
+      <div className="spanLogo">
+      <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">SIMON</span>
+      <span className="self-center text-1xl font-semibold whitespace-nowrap text-white">Secundarias Profesionales</span>
+      </div>
+  </a>
+  
         </Navbar.Brand>
         <Navbar.Toggler target="#navbarSupportedContent" />
         <Collapse navbar id="navbarSupportedContent">
           <Navbar.Nav mr="auto">
             <Nav.Item active>
-              <Nav.Link href="#">Home</Nav.Link>
+              <Nav.Link href="/">Inicio</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href="#">Link</Nav.Link>
+              <Nav.Link href="/Elsendero">El Sendero</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link href="/Diagnostico">Diagnostico</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link href="/Elsendero">Nuestro Sendero</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link href="/Diagnostico">Comunidad</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link href="/Diagnostico">Perfil</Nav.Link>
             </Nav.Item>
             <Nav.Item dropdown>
-              <Nav.Link dropdownToggle>Dropdown</Nav.Link>
+              <Nav.Link dropdownToggle>Desafio</Nav.Link>
               <Dropdown.Menu>
-                <Dropdown.Item>Action</Dropdown.Item>
-                <Dropdown.Item>Another action</Dropdown.Item>
-                <Dropdown.Divider />
-                <Dropdown.Item>Something else</Dropdown.Item>
+                <Dropdown.Item>Practica 1</Dropdown.Item>
+                <Dropdown.Item>Practica 2</Dropdown.Item>
+                <Dropdown.Item>Practica 3</Dropdown.Item>
+                <Dropdown.Item>Practica 4</Dropdown.Item>
               </Dropdown.Menu>
             </Nav.Item>
-            <Nav.Item>
-              <Nav.Link disabled>Disabled</Nav.Link>
-            </Nav.Item>
+            
+           
           </Navbar.Nav>
-          <Form inline my="2 lg-0">
-            <Form.Input type="search" placeholder="Search" mr="sm-2" />
-            <Button outline success my="2 sm-0">Search</Button>
-          </Form>
+          
         </Collapse>
       </Navbar>
         </div>
