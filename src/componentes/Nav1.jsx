@@ -1,27 +1,27 @@
 
 import { Navbar, Nav, Dropdown, Collapse } from 'bootstrap-4-react';
 import videoLogo from "./../../public/imagenes/Logotipo animado 500x500 px.gif"
-
+import "./Nav1.css"
 
 
 const Nav1 = () => {
     return (
         <div>
-              <Navbar expand="lg" light bg="light">
+              <Navbar expand="lg" light bg="light" >
         <Navbar.Brand href="#">
         <a href="/" className="flex items-center">
       <img src={videoLogo} className="h-10 mr-3" alt="Flowbite Logo" />
       <div className="spanLogo">
-      <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">SIMON</span>
-      <span className="self-center text-1xl font-semibold whitespace-nowrap text-white">Secundarias Profesionales</span>
+      <div><span className="self-center text-2xl font-semibold  text-black">SIMON</span></div>
+      <div><span className="self-center text-1xl font-semibold  text-black">Secundarias Profesionales</span></div>
       </div>
   </a>
   
         </Navbar.Brand>
         <Navbar.Toggler target="#navbarSupportedContent" />
-        <Collapse navbar id="navbarSupportedContent">
-          <Navbar.Nav mr="auto">
-            <Nav.Item active>
+        <Collapse navbar id="navbarSupportedContent" className="barranav">
+          <Navbar.Nav mr="auto"  >
+            <Nav.Item active >
               <Nav.Link href="/">Inicio</Nav.Link>
             </Nav.Item>
             <Nav.Item>
@@ -30,23 +30,37 @@ const Nav1 = () => {
             <Nav.Item>
               <Nav.Link href="/Diagnostico">Diagnostico</Nav.Link>
             </Nav.Item>
-            <Nav.Item>
-              <Nav.Link href="/Elsendero">Nuestro Sendero</Nav.Link>
-            </Nav.Item>
+            
             <Nav.Item>
               <Nav.Link href="/Diagnostico">Comunidad</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link href="/Diagnostico">Perfil</Nav.Link>
             </Nav.Item>
             <Nav.Item dropdown>
               <Nav.Link dropdownToggle>Desafio</Nav.Link>
               <Dropdown.Menu>
-                <Dropdown.Item>Practica 1</Dropdown.Item>
-                <Dropdown.Item>Practica 2</Dropdown.Item>
-                <Dropdown.Item>Practica 3</Dropdown.Item>
-                <Dropdown.Item>Practica 4</Dropdown.Item>
+                <Dropdown.Item>
+                     <li>
+                    <a href="./Modulo1" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Practica 1</a>
+                  </li>
+                  </Dropdown.Item>
+                <Dropdown.Item>
+                    <li>
+                    <a href="./Modulo2" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Practica 2</a>
+                  </li></Dropdown.Item>
+                <Dropdown.Item>
+                    <li>
+                    <a href="./Modulo3" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Practica 3</a>
+                  </li>
+                  </Dropdown.Item>
+                <Dropdown.Item>
+                    <li>
+                    <a href="./Modulo4" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Practica 4</a>
+                  </li>
+                  </Dropdown.Item>
               </Dropdown.Menu>
+            </Nav.Item>
+            
+            <Nav.Item>
+              <Nav.Link href="/Diagnostico">Perfil</Nav.Link>
             </Nav.Item>
             
            

@@ -1,11 +1,11 @@
-import Navb from "../componentes/Navb";
+import Nav1 from "../componentes/Nav1";
 import Utilitarios from "../componentes/Utilitarios";
 
 
 const Modulo2 = () => {
     return (
         <div>
-            <Navb/>
+            <Nav1/>
             <Utilitarios/>
         </div>
     );

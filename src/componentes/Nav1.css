@@ -1,0 +1,8 @@
+.spanLogo {
+display:flex;
+flex-direction:column;}
+
+.barranav {
+display:flex;
+justify-content:space-between;
+margin-left:15em}

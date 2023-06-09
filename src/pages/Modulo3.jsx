@@ -1,13 +1,15 @@
-import Navb from "../componentes/Navb"
-import Pensamiento1 from "../componentes/Pensamiento1"
+import Nav1 from "../componentes/Nav1"
+
+
+import WordExcel from "../componentes/WordExcel"
 
 
 
 function Modulo3() {
   return (
     <div>
-      <Navb/>
-      <Pensamiento1/>
+      <Nav1/>
+      <WordExcel/>
       
     </div>
   )

@@ -1,11 +1,11 @@
 import Hardware from "../componentes/Hardware";
-import Navb from "../componentes/Navb";
+import Nav1 from "../componentes/Nav1";
 
 
 const Modulo1 = () => {
     return (
         <div>
-            <Navb/>
+            <Nav1/>
             <Hardware/>
         </div>
     );

@@ -1,10 +1,11 @@
 import Header from "../componentes/Header";
-import Navb from "./../componentes/Navb"
+import Nav1 from "../componentes/Nav1";
+
 
 const Home = () => {
     return (
         <div>
-            <Navb/>
+            <Nav1/>
             <Header/>
 
         </div>
