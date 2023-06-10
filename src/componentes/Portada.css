@@ -1,0 +1,13 @@
+.portada1 {
+  position: relative;
+}
+
+.boton-sobre-imagen {
+  position: absolute;
+  top: 74%;
+  left: 88%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width:10em;
+  height:3em;
+}

@@ -1,19 +1,20 @@
 
 import { Navbar, Nav, Dropdown, Collapse } from 'bootstrap-4-react';
-import videoLogo from "./../../public/imagenes/Logotipo animado 500x500 px.gif"
+import logoPrometeo from "./../../public/imagenes/logoPrometeo.png"
+
 import "./Nav1.css"
 
 
 const Nav1 = () => {
     return (
         <div>
-              <Navbar expand="lg" light bg="light" >
+              <Navbar expand="lg" light bg="transparent" >
         <Navbar.Brand href="#">
         <a href="/" className="flex items-center">
-      <img src={videoLogo} className="h-10 mr-3" alt="Flowbite Logo" />
+      <img src={logoPrometeo} className="logoPrometeo mr-3" alt="Flowbite Logo" />
       <div className="spanLogo">
-      <div><span className="self-center text-2xl font-semibold  text-black">SIMON</span></div>
-      <div><span className="self-center text-1xl font-semibold  text-black">Secundarias Profesionales</span></div>
+    
+      <div><span className="self-center text-1xl font-semibold  text-black">ESCUELAS PROFESIONALES SECUNDARIAS</span></div>
       </div>
   </a>
   

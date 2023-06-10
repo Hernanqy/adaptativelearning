@@ -1,8 +1,13 @@
 .spanLogo {
 display:flex;
-flex-direction:column;}
+flex-direction:column;
+font-size:0.5em;}
 
 .barranav {
 display:flex;
 justify-content:space-between;
 margin-left:15em}
+
+.logoPrometeo {
+
+width:6em}
