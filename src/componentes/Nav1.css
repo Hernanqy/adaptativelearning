@@ -6,6 +6,7 @@ font-size:0.5em;}
 .barranav {
 display:flex;
 justify-content:space-between;
+align-items:center;
 margin-left:15em}
 
 .logoPrometeo {
@@ -13,8 +14,27 @@ margin-left:15em}
 width:6em}
 
 .Imghome {
-width:4.5em;}
+width:4.5em;
+margin-top:0.8em;}
 
 .Imgpath {
 width:6.5em;
-height:4.5em}
+height:4.5em;
+margin-boton:0.5em}
+
+@media (min-width: 268px) and (max-width:700px) {
+
+    .barranav {
+
+margin-left:0px;}
+
+}
+
+span {
+text-align:center;}
+.spanperfil {
+text-align:center;}
+
+.spanperfil1{
+
+margin-top:0.8em;}
