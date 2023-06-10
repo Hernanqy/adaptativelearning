@@ -6,7 +6,7 @@ const Portada = () => {
         <div className="portada-container">
       <div className="portada1">
         <img src={Imgportada} alt="" />
-       <button type="button" className="btn btn-primary boton-sobre-imagen btn-lg">Primary</button> 
+       <button type="button" className="btn btn-primary boton-sobre-imagen">Inicio</button> 
       </div>
     </div>
     );

@@ -11,3 +11,18 @@
   width:10em;
   height:3em;
 }
+
+@media (min-width: 268px) and (max-width:500px) {
+
+    .boton-sobre-imagen {
+  position: absolute;
+  top: 74%;
+  left: 88%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  width:3.8em;
+  height:2.2em;
+}
+
+
+}
