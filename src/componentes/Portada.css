@@ -4,12 +4,12 @@
 
 .boton-sobre-imagen {
   position: absolute;
-  top: 74%;
-  left: 88%;
+  top: 70%;
+  left: 87%;
   transform: translate(-50%, -50%);
   z-index: 1;
-  width:10em;
-  height:3em;
+  width:12em;
+  height:4em;
 }
 
 @media (min-width: 268px) and (max-width:500px) {

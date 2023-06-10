@@ -1,6 +1,8 @@
 
 import { Navbar, Nav, Dropdown, Collapse } from 'bootstrap-4-react';
 import logoPrometeo from "./../../public/imagenes/logoPrometeo.png"
+import Imghome from "./../../public/imagenes/Imghome.png"
+import ImgPath2 from "./../../public/imagenes/ImgPath2.png"
 
 import "./Nav1.css"
 
@@ -23,10 +25,10 @@ const Nav1 = () => {
         <Collapse navbar id="navbarSupportedContent" className="barranav">
           <Navbar.Nav mr="auto"  >
             <Nav.Item active >
-              <Nav.Link href="/">Inicio</Nav.Link>
+              <Nav.Link href="/"><img src={Imghome} alt="" className='Imghome' /></Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href="/Elsendero">El Sendero</Nav.Link>
+              <Nav.Link href="/Elsendero"><img src={ImgPath2} alt="" className='Imgpath' /></Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link href="/Diagnostico">Diagnostico</Nav.Link>

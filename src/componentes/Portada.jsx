@@ -1,4 +1,4 @@
-import Imgportada from "./../../public/imagenes/portada1.png"
+import Imgportada from "./../../public/imagenes/portada3.png"
 import "./Portada.css"
 
 const Portada = () => {
@@ -8,6 +8,7 @@ const Portada = () => {
         <img src={Imgportada} alt="" />
        <button type="button" className="btn btn-primary boton-sobre-imagen">Inicio</button> 
       </div>
+      
     </div>
     );
 }
