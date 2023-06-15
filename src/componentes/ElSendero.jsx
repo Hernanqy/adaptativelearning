@@ -1,16 +1,34 @@
 import "./ElSendero.css"
+import ImghHabilidades from "../../public/imagenes/Habilidades digitales.jpg"
 
-import Nivel1 from "../../public/imagenes/Nivel1.gif"
 
 function ElSendero() {
   return (
     < > 
       
-      <div >
-      <div className="contenedorSendero" ><img src={Nivel1} alt="" /> </div> 
+      <div className="contenedorSendero" >
+      
+        <img src={ImghHabilidades} alt="" />
+      </div>
+
+
+
+
+      <div className="contenedorSendero1" >
+      
+        <img src={ImghHabilidades} alt="" />
+      </div>
+      <div className="contenedorSendero" >
+      
+        <img src={ImghHabilidades} alt="" />
+      </div>
+      <div className="contenedorSendero1" >
+      
+        <img src={ImghHabilidades} alt="" />
+      </div>
      
      
-   </div>
+   
      
    
    

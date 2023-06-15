@@ -1,17 +1,28 @@
 .contenedorSendero {
 display:flex;
-justify-content:center;
-margin-top:5em;
+justify-content:flex-start;
 gap:3em;
-width:40em;
-height:35em;
+padding:5em;
 }
 .contenedorSendero img {
 border-radius:2em;
 padding:1em;
+height:90vh;
 }
 @media (max-width: 712px) {
 .contenedorSendero div img{
 width:25em;
 }
+}
+.contenedorSendero1 img {
+border-radius:2em;
+padding:1em;
+height:90vh;
+
+}
+.contenedorSendero1 {
+    display:flex;
+justify-content:flex-end;
+gap:3em;
+padding:5em;
 }
