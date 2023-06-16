@@ -1,6 +1,6 @@
 .contenedorSendero {
 display:flex;
-justify-content:flex-start;
+justify-content:flex-end;
 gap:3em;
 padding:5em;
 }
@@ -22,7 +22,10 @@ height:90vh;
 }
 .contenedorSendero1 {
     display:flex;
-justify-content:flex-end;
+justify-content:flex-start;
 gap:3em;
+padding:5em;
+}
+.Imgpersonaje1 {
 padding:5em;
 }
