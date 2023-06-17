@@ -9,11 +9,6 @@ border-radius:2em;
 padding:1em;
 height:90vh;
 }
-@media (max-width: 712px) {
-.contenedorSendero div img{
-width:25em;
-}
-}
 .contenedorSendero1 img {
 border-radius:2em;
 padding:1em;
@@ -28,4 +23,35 @@ padding:5em;
 }
 .Imgpersonaje1 {
 padding:5em;
+}
+.contenedorSendero2 {
+    display:flex;
+justify-content:flex-start;
+gap:5em;
+padding:5em;
+}
+
+.contenedorSendero2 img {
+    border-radius:2em;
+    padding:1em;
+    height:90vh;
+    
+    }
+
+
+    
+@media (max-width: 712px) {
+.contenedorSendero {
+    padding:0px;
+}
+
+.contenedorSendero1 {
+    padding:0px;
+}
+.contenedorSendero2 {
+    padding:0px;
+}
+.Imgpersonaje1 {
+    display:none;
+}
 }

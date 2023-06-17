@@ -10,6 +10,7 @@ import Modulo3 from './pages/Modulo3'
 import Elsendero from './pages/ElSendero'
 import Dianostico from './pages/Dianostico'
 import Modulo4 from './pages/Modulo4'
+import Comunidadedu from './pages/Comunidadedu'
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
           <Route path="/Modulo4" element={<Modulo4/>} />
           <Route path="/Elsendero" element={<Elsendero/>} />
           <Route path="/Diagnostico" element={<Dianostico/>} />
+          <Route path="/Comunidadedu" element={<Comunidadedu/>} />
          
 
         </Routes>

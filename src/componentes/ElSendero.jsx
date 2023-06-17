@@ -14,7 +14,7 @@ function ElSendero() {
       
       <div className="contenedorSendero" >
       
-        <img src={ImghHabilidades} alt="" />
+        <img className="poster" src={ImghHabilidades} alt="" />
         <img className="Imgpersonaje1" src={Imgpersonaje1} alt="" />
       </div>
 
@@ -23,20 +23,20 @@ function ElSendero() {
 
       <div className="contenedorSendero1" >
       <img className="Imgpersonaje1" src={Imgpersonaje2} alt="" />
-        <img src={ImghHabilidades1} alt="" />
+        <img className="poster" src={ImghHabilidades1} alt="" />
       </div>
 
 
-      <div className="contenedorSendero" >
+      <div className="contenedorSendero2" >
       
-        <img src={ImghHabilidades2} alt="" />
+        <img className="poster" src={ImghHabilidades2} alt="" />
         <img className="Imgpersonaje1" src={Imgpersonaje3} alt="" />
       </div>
 
 
-      <div className="contenedorSendero1" >
+      <div className="contenedorSendero" >
       <img className="Imgpersonaje1" src={Imgpersonaje4} alt="" />
-        <img src={ImghHabilidades3} alt="" />
+        <img className="poster" src={ImghHabilidades3} alt="" />
       </div>
      
      

@@ -43,7 +43,7 @@ const Nav1 = () => {
             </Nav.Item>
             
             <Nav.Item className ="spanperfil">
-              <Nav.Link href="/Diagnostico"><img src={ImgComunidad} alt="" className='Imgpath' /><span>Comunidad</span></Nav.Link>
+              <Nav.Link href="/Comunidadedu"><img src={ImgComunidad} alt="" className='Imgpath' /><span>Comunidad</span></Nav.Link>
             </Nav.Item>
             <Nav.Item dropdown>
               <Nav.Link dropdownToggle><img src={ImgDesafio} alt="" className='Imgpath' /><span>Desafios</span></Nav.Link>

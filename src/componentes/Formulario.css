@@ -2,3 +2,17 @@
 display:flex;
 justify-content: center;
 margin-top:5em;}
+
+@media (max-width: 768px) {
+    .formulario {
+    display:flex;
+    flex-direction:column;
+    gap:1em;
+}
+.formulario iframe {
+    width:100%;
+    gap:1em;
+}
+
+
+}
