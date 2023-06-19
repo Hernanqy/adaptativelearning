@@ -1,5 +1,4 @@
-.perfilCont {
-    background-image: url(../../public/imagenes/fondoPefil.jpg);
-    width:100vw;
-    height:100vh;
+
+.contenedorSkills {
+    gap: 2px;
 }

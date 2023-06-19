@@ -7,26 +7,26 @@ import ImgObjetivo from "../../public/imagenes/ObjetivoCumplido.gif"
 import "./Perfil.css"
 const Perfil = () => {
     return (<>
-
-        <div className="container perfilCont">
+<div className="contenedorSkills">
+        <div className="perfilCont">
             <img src={ImgPerfil1} alt="" />
         </div>
-        <div className="container perfilCont">
+        <div className="perfilCont">
             <img src={ImgNIVELskils} alt="" />
         </div>
-        <div className="container perfilCont">
+        <div className="perfilCont">
             <img src={ImgNIVELskils2} alt="" />
         </div>
-        <div className="container perfilCont">
+        <div className=" perfilCont">
             <img src={ImgNIVELskils3} alt="" />
         </div>
-        <div className="container perfilCont">
+        <div className=" perfilCont">
             <img src={ImgNIVELskils5} alt="" />
         </div>
-        <div className="container perfilCont">
+        <div className="perfilCont">
             <img src={ImgObjetivo} alt="" />
         </div>
-        
+        </div>
         </>
     );
 };
