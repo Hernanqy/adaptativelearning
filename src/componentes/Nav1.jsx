@@ -71,7 +71,7 @@ const Nav1 = () => {
             </Nav.Item>
             
             <Nav.Item className="spanperfil">
-              <Nav.Link href="/Diagnostico"><img src={ImgPerfil1} alt="" className='Imgpath' /><span>Perfil</span></Nav.Link>
+              <Nav.Link href="/Perfil"><img src={ImgPerfil1} alt="" className='Imgpath' /><span>Perfil</span></Nav.Link>
             </Nav.Item>
             
            
