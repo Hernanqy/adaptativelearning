@@ -11,6 +11,7 @@ const Comunidad = () => {
                 <img src={Imgcomunidad1} alt="" />
             </div>
         </div>
+        
     );
 };
 

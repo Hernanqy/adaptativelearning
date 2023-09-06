@@ -1,0 +1,21 @@
+.noscard {
+  margin-top:3em;
+  padding:1em;
+  display: flex;
+  justify-content: space-around;
+}
+img {
+  border-radius:1em;
+  width: 30em;
+  height: 6em;
+}
+.noscard1 {
+  display:flex;
+  justify-content: space-between;
+  margin-top:2em;
+  margin-left:2em;
+}
+h2 {
+  text-align: center;
+  font-size:3em;
+}

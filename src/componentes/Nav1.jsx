@@ -7,6 +7,8 @@ import ImgDiagnostico from "./../../public/imagenes/ImgDiagnostico.png"
 import ImgComunidad from "./../../public/imagenes/ImgComunidad.png"
 import ImgDesafio from "./../../public/imagenes/ImgDesafio.png"
 import ImgPerfil1 from "./../../public/imagenes/ImgPerfil1.png"
+import ImgNosotrxs from "./../../public/imagenes/Untitled design.png"
+
 
 
 import "./Nav1.css"
@@ -70,6 +72,9 @@ const Nav1 = () => {
               </Dropdown.Menu>
             </Nav.Item>
             
+            <Nav.Item className="spanperfil">
+              <Nav.Link href="/Nosotrxs"><img src={ImgNosotrxs} alt="" className='Imgpath' /><span>Nosotrxs</span></Nav.Link>
+            </Nav.Item>
             <Nav.Item className="spanperfil">
               <Nav.Link href="/Perfil"><img src={ImgPerfil1} alt="" className='Imgpath' /><span>Perfil</span></Nav.Link>
             </Nav.Item>
