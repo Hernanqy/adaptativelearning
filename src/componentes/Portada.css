@@ -1,5 +1,9 @@
 .portada1 {
   position: relative;
+  
+}
+.portada1 img {
+  width: 100%;
 }
 
 .boton-sobre-imagen {
