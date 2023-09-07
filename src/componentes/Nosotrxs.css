@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-around;
 }
-img {
+.imgnos {
   border-radius:1em;
   width: 30em;
   height: 6em;

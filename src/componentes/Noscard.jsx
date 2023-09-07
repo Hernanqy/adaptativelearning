@@ -15,11 +15,11 @@ const Noscard = () => {
                
                 
                 <div className="noscard animate__bounceIn ">
-                <img src={Imgnos1} alt="" />
+                <img className="imgnos" src={Imgnos1} alt="" />
               </div>
                 <div className="noscard1 animate__bounceIn ">
-                <img src={Imgequip} alt="" />
-                <img src={Imgnos2} alt="" />
+                <img className="imgnos" src={Imgequip} alt="" />
+                <img className="imgnos" src={Imgnos2} alt="" />
               </div>
         </div>
     );
