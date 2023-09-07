@@ -37,7 +37,7 @@ const Nav1 = () => {
             </Nav.Item>
 
             <Nav.Item className="spanperfil">
-              <Nav.Link href="/Elsendero"><img src={ImgPath2} alt="" className='Imgpath' /><span>Sendero</span></Nav.Link>
+              <Nav.Link href="/Elsendero"><img src={ImgPerfil1 } alt="" className='Imgpath' /><span>EPS</span></Nav.Link>
             </Nav.Item>
 
             <Nav.Item className="spanperfil">
@@ -76,7 +76,7 @@ const Nav1 = () => {
               <Nav.Link href="/Nosotrxs"><img src={ImgNosotrxs} alt="" className='Imgpath' /><span>Nosotrxs</span></Nav.Link>
             </Nav.Item>
             <Nav.Item className="spanperfil">
-              <Nav.Link href="/Perfil"><img src={ImgPerfil1} alt="" className='Imgpath' /><span>Perfil</span></Nav.Link>
+              <Nav.Link href="/Perfil"><img src={ImgPath2} alt="" className='Imgpath' /><span>El camino</span></Nav.Link>
             </Nav.Item>
             
            
